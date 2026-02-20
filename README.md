@@ -26,14 +26,21 @@ This file contains **all the questions** from the Jupyter notebook in one place,
 
 ## How to Get Started  
 
+1. **Open google colab and clone this github repository**  
+   - Open google colab at https://colab.research.google.com/ and open a new notebook. In the first code block copy-paste-run:\
+   ```from google.colab import drive```\
+   ```drive.mount('/content/drive')```\
+   Running this code block gives google colab access to your drive. You have to click accept on the pop-ups that follow. This is needed to clone the github repository to your drive.
+   
+   - To make sure we clone the repo in your drive, in the next code block copy-paste-run:\
+   ```%cd drive/My\ Drive/```   
+   
+   - To clone the github repository of this practical to your drive copy-paste-run this code block: 
+   ```!git clone https://github.com/qforestlab/ARS_TLS_course.git```\
+   This can take 4 minutes.
+
 1. **Open the notebooks**  
    - The notebooks are marked in order (0X_notebookname.file). With this README file being the first. If you follow all files one by one, everything should make sense.
-
-2. **Set up your data**  
-   - Save the **[data folder](https://github.com/gdeslo/GEDI_course/tree/main/DATA)** to your **Google Drive** under:  
-     ```
-     My Drive/Colab Notebooks/TLS_course/data
-     ```
 
 3. **Follow the L2B notebook instructions**  
    - Launch the **[L2B notebook](https://github.com/gdeslo/GEDI_course/blob/main/04_GEDI_L2B_notebook.ipynb)** in **Google Colab**.
