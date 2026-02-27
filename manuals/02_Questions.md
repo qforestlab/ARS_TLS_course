@@ -21,7 +21,7 @@ Solve these questions for yourself in preparation for the exam 😉
 
 🤔 Reflection 1: which scenarios (regarding data collection, processing, ...) can you think of that could cause errors in this tree height estimation? For example, when there occlusion of the stem due to a bush surrounding the stem. Think of 2 other scenarios and if/how this could be mitigated.
 
-Reflection 2: How accurate and precise do you think tree height is from TLS point clouds? Why?
+🤔 Reflection 2: How accurate and precise do you think tree height is from TLS point clouds? Why?
 
 🤔 Reflection 3: When would be best to use the circle fitting method and when would be best to use the concave hull method?
 
