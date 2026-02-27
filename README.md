@@ -49,7 +49,7 @@ Instructions on opening this notebook in google colab are found below, under 'Pr
 📌 [01_ARS_TLS_practical_RCT.ipynb](./notebooks/01_ARS_TLS_practical_RCT.ipynb)  
 This notebook contains the installation of **RCT** in google colab and processing of a plot point cloud file to individual tree point clouds (and models).
 
-📌 [02_ARS_TLS_practical_CloudCompare.ipynb](./notebooks/01_ARS_TLS_practical_CloudCompare.md)  
+📌 [02_ARS_TLS_practical_CloudCompare.md](./notebooks/01_ARS_TLS_practical_CloudCompare.md)  
 This notebook contains guided steps to manipulating point clouds in **CloudCompare** for instance segmentation correction. 
 
 📌 [03_ARS_TLS_practical_QSM.ipynb](./notebooks/02_ARS_TLS_practical_QSM.ipynb)  
