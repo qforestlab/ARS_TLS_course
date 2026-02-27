@@ -23,7 +23,7 @@ Solve these questions for yourself in preparation for the exam 😉
 
 🤔 Reflection 2: How accurate and precise do you think tree height is from TLS point clouds? Why?
 
-🤔 Reflection 3: When would be best to use the circle fitting method and when would be best to use the concave hull method?
+🤔 Reflection 3: When would it be best to use the circle fitting method and when would be best to use the concave hull method?
 
 🤔 Reflection 4: What could cause problems with the diameter measurements using each of these methods?
 
