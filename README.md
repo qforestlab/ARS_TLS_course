@@ -16,7 +16,7 @@ This repository contains all the necessary files to **successfully complete the 
 ---
 
 ## Google colab
-Google Colab is a free, cloud-based notebook environment developed by Google. It allows you to write and run code directly in your browser without installing anything on your own computer. We use Google Colab because everyone works in the same environment, it runs in the cloud (so it works on any laptop), files can easily be saved to Google Drive, it ensures the practical runs consistently for everyone. 
+[Google Colab](https://colab.research.google.com/) is a free, cloud-based notebook environment developed by Google. It allows you to write and run code directly in your browser without installing anything on your own computer. We use Google Colab because everyone works in the same environment, it runs in the cloud (so it works on any laptop), files can easily be saved to Google Drive, it ensures the practical runs consistently for everyone. 
 
 ## Resources  
 ### Data
@@ -37,7 +37,6 @@ In the notebooks folder in this repository you will find the notebooks that we w
 📌 [00_ARS_TLS_practical_preparation.ipynb](./notebooks/00_ARS_TLS_practical_preparation.ipynb)  
 This notebook contains all the preparation steps required for the practical. NOTE: This can take an hour of processing time so it needs to be completed before beginning the practical.
 You can open this notebook here, and it will guide you through preparing the remaining notebooks:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/notebooks/00_ARS_TLS_practical_preparation.ipynb)
 
 📌 [01_ARS_TLS_practical_RCT.ipynb](./notebooks/01_ARS_TLS_practical_RCT.ipynb)  
 This notebook contains the installation of **RCT** in google colab and processing of a plot point cloud file to individual tree point clouds and models.
@@ -55,8 +54,11 @@ This notebook contains the installation of **ITSMe** in google colab and extract
 
 ## How to Get Started  
 
-All the steps to get started are found in the 00_ARS_TLS_practical_preparation.ipynb notebook (link found above).
-After completing that notebook, the rest of the notebooks will be cloned to your google drive and can be accessed there.
+All the steps to get started are found in the 00_ARS_TLS_practical_preparation.ipynb notebook.
+To open this first notebook, navigate to [Google Colab](https://colab.research.google.com/), click on the GitHub tab in the welcome window, and search for this repository by entering the following url:
+https://github.com/qforestlab/ARS_TLS_course/tree/main
+
+After completing the setup notebook, the rest of the notebooks will be cloned to your google drive and can be accessed there.
 Keep in mind that the setup takes about an hour and involves data download/upload, as well as R package installation.
 
 ---
