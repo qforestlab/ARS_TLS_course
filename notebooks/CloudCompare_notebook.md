@@ -4,7 +4,7 @@
 
 #### Option 1: Open CloudCompare and click the <span style="color:red">file icon</span> in the top left of the window. Select all raycloud_segmented pointcloud files within the individual_pointclouds folder stored on your local PC. 
 
-![Open File](./images/1_cc_open_file.png)  
+![Open File](./images/cc1.png)  
 
 #### Option 2: Open CloudCompare, drag and drop the pointcloud files into the CloudCompare viewer window.
 
@@ -166,4 +166,5 @@ Find the desired folder to save your point cloud in on your local PC. Then creat
 ![alt text](image-18.png)
 
 ## Now that you have saved your freshly segmented tree, it's just a matter of repeating the process and staying organized. Good luck!
+
 
