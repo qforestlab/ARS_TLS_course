@@ -1,4 +1,3 @@
-# WORK IN PROGRESS
 # Welcome to the TLS Practical Repository for ARS
 
 This is the repository for the **Advanced Remote Sensing (ARS) TLS Practical** at **UGent**.  
@@ -9,7 +8,7 @@ In this practical, you will:
 - Gain an understanding of what **point cloud data** is and how to process it.  
 - Use **the RayCloudTools library** to perform instance segmentation on a plot point cloud.  
 - Use **CloudCompare** to manually correct instance segmentation of a tree point cloud.
-- Use **the RayCloudTools library** to perform 3D modelling on tree point clouds. 
+- Use **the RayCloudTools library** to model tree structure from point clouds. 
 - Use **the ITSMe R package** to calculate structural metrics from tree point clouds.  
 
 This repository contains all the necessary files to **successfully complete the practical**.  
@@ -35,46 +34,30 @@ This file contains **all the questions** from the notebooks in one place, making
 ### Notebooks
 In the notebooks folder in this repository you will find the notebooks that we will use during the practical to run RCT and ITSMe. 
 
-📌 [01_ARS_TLS_practical_RCT.ipynb](./notebooks/01_ARS_TLS_practical_RCT.ipynb)  
-This notebook contains the installation of **RCT** in google colab and processing of a plot point cloud file to individual tree point clouds and models. 
+📌 [00_ARS_TLS_practical_preparation.ipynb](./notebooks/00_ARS_TLS_practical_preparation.ipynb)  
+This notebook contains all the preparation steps required for the practical. NOTE: This can take an hour of processing time so it needs to be completed before beginning the practical.
+You can open this notebook here, and it will guide you through preparing the remaining notebooks:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/notebooks/00_ARS_TLS_practical_preparation.ipynb)
 
-📌 [02_ARS_TLS_practical_ITSME.ipynb](./notebooks/02_ARS_TLS_practical_ITSME.ipynb)  
+📌 [01_ARS_TLS_practical_RCT.ipynb](./notebooks/01_ARS_TLS_practical_RCT.ipynb)  
+This notebook contains the installation of **RCT** in google colab and processing of a plot point cloud file to individual tree point clouds and models.
+
+📌 [02_ARS_TLS_practical_CloudCompare.ipynb](./notebooks/01_ARS_TLS_practical_CloudCompare.ipynb)  
+This notebook contains guided steps to manipulating point clouds in CloudCompare for segmentation correction. 
+
+📌 [03_ARS_TLS_practical_QSM.ipynb](./notebooks/02_ARS_TLS_practical_QSM.ipynb)  
+This notebook contains guided steps to creating Quantitative Structure Models (QSMs) from individual tree point clouds using RCT.
+
+📌 [04_ARS_TLS_practical_ITSME.ipynb](./notebooks/04_ARS_TLS_practical_ITME.ipynb)  
 This notebook contains the installation of **ITSMe** in google colab and extraction of structural metrics from single tree point cloud files.
 
 ---
 
 ## How to Get Started  
 
-To set up for the practical, you need to clone this repository to your google drive. 
-1. **Open google colab and clone this github repository**  
-   - Open google colab at https://colab.research.google.com/ and open a new notebook. In the first code block copy-paste-run:\
-   ```from google.colab import drive```\
-   ```drive.mount('/content/drive')```\
-   Running this code block gives google colab access to your drive. You have to click **connect to google drive** and **continue** on the pop-ups that follow. This is needed to clone the github repository to your drive.
-   
-   - To make sure we clone the repo in your drive, in the next code block copy-paste-run:\
-   ```%cd drive/My\ Drive/```   
-   
-   - To clone the github repository of this practical to your drive copy-paste-run this code block: 
-   ```!git clone https://github.com/qforestlab/ARS_TLS_course.git```\
-   This can take 4 minutes.
-
-2. **Pre-installing ITSMe on your google drive**
-   - Open your google drive and open the **02_ARS_TLS_practical_ITSME.ipynb** notebook from the ARS_TLS_course folder (that you cloned in the previous step) in your drive. It should automatically open in google colab. 
-   - Change your run time settings to Python by clicking on **Runtime > Change runtime type > Runtime type** → choose **Python** → click **Save**.
-
-   <img src="./images/runtime-python1.png" width="54%"> <img src="./images/runtime-python2.png" width="40%">
-
-   - Run the first block of code (SETUP STEP 1)
-   - Change your run time settings to R by clicking on **Runtime > Change runtime type > Runtime type** → choose **R** → click **Save**.
-
-   <img src="./images/runtime-python1.png" width="54%"> <img src="./images/runtime-R2.png" width="39%">
-   - Run the second block of code (SETUP STEP 2 & 3)
-
-3. **Open the notebooks**  
-   - There are two notebooks, the ...
-
-   - Read the information, execute the code, and try to solve the **🧐 Questions to Think About**.  
+All the steps to get started are found in the 00_ARS_TLS_practical_preparation.ipynb notebook (link found above).
+After completing that notebook, the rest of the notebooks will be cloned to your google drive and can be accessed there.
+Keep in mind that the setup takes about an hour and involves data download/upload, as well as R package installation.
 
 ---
 
