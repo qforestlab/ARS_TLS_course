@@ -62,6 +62,7 @@ Assuming the point cloud is oriented with z pointing up, the z coordinate scalar
 ![export coordinates to sfs 2](../images/cc8.png)
 
 Then your tree will look like this.
+
 ![alt text](../images/cc9.png)
 
 ### 3.3 Miscellaneous visualization options
@@ -112,7 +113,7 @@ Note that while a segmentation session is active, the other tools in the top too
 
 ## 6. Polygon drawing and confirming segmentation
 
-Now that we have segmentation started, we can zoom in to the overlapping area between the two demo trees and draw a polygon around the area we want to remove from tree 24. If you are unable to move the view window and are instead drawing a polygon, try pausing the segmentation as outlined in the previous step.
+Now that we have started the segmentation, we can zoom in to the overlapping area between the two demo trees and draw a polygon around the area we want to remove from tree 24. If you are unable to move the view window and are instead drawing a polygon, try pausing the segmentation as outlined in the previous step.
 
 ![alt text](../images/cc14.png)
 
@@ -166,6 +167,7 @@ Find the desired folder to save your point cloud in on your local PC. Then creat
 ![alt text](../images/cc22.png)
 
 ## Now that you have saved your freshly segmented tree, it's just a matter of repeating the process and staying organized. Good luck!
+
 
 
 
