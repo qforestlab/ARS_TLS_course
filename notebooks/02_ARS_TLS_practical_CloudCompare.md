@@ -42,7 +42,7 @@ When segmenting individual trees, it can be nice to assign each tree (and the re
 
 #### 3. Select the desired color
 
-If you find yourself returning to the same colors, you can click 'Add to Custom Colors' to make them easily accesible in the future.
+If you find yourself returning to the same colors, you can click 'Add to Custom Colors' to make them easily accessible in the future.
 
 ![set unique 2](../images/cc5.png)
 
@@ -166,6 +166,7 @@ Find the desired folder to save your point cloud in on your local PC. Then creat
 ![alt text](../images/cc22.png)
 
 ## Now that you have saved your freshly segmented tree, it's just a matter of repeating the process and staying organized. Good luck!
+
 
 
 
